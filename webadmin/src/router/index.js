@@ -1,28 +1,32 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from 'components/Hello.vue'
-import Sample from 'components/Sample.vue'
-import DashboardV1 from 'examples/Dashboard.v1.vue'
-import DashboardV2 from 'examples/Dashboard.v2.vue'
+
+// examples
+import DashboardV1 from 'examples/Dashboard.v1'
+import DashboardV2 from 'examples/Dashboard.v2'
 import InfoBoxExample from 'examples/InfoBoxExample'
 import ChartExample from 'examples/ChartExample'
 import AlertExample from 'examples/AlertExample'
 import ModalExample from 'examples/ModalExample'
 import WidgetsExample from 'examples/WidgetsExample'
 import APIExample from 'examples/APIExample'
-import Login from 'pages/Login'
 
 // UI Element Groups
-import General from 'pages/ui-elements/General.vue'
-import Icons from 'pages/ui-elements/Icons.vue'
-import Buttons from 'pages/ui-elements/Buttons.vue'
-import Sliders from 'pages/ui-elements/Sliders.vue'
-import Timeline from 'pages/ui-elements/Timeline.vue'
-import Modals from 'pages/ui-elements/Modals.vue'
+import General from 'pages/ui-elements/General'
+import Icons from 'pages/ui-elements/Icons'
+import Buttons from 'pages/ui-elements/Buttons'
+import Sliders from 'pages/ui-elements/Sliders'
+import Timeline from 'pages/ui-elements/Timeline'
+import Modals from 'pages/ui-elements/Modals'
 
 // forms
-import GeneralElements from 'pages/forms/GeneralElements.vue'
-import AdvancedElements from 'pages/forms/AdvancedElements.vue'
+import GeneralElements from 'pages/forms/GeneralElements'
+import AdvancedElements from 'pages/forms/AdvancedElements'
+
+// login
+import Login from 'pages/Login'
+import Hello from 'pages/Hello'
+import Sample from 'pages/Sample'
 
 Vue.use(Router)
 

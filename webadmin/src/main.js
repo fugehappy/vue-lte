@@ -7,11 +7,14 @@ import './lib/global'
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Multiselect from 'vue-multiselect'
 import EventBus from './lib/eventBus.js'
 import axios from 'axios'
 
 Vue.prototype.$bus = EventBus
 Vue.prototype.$http = axios
+
+Vue.component('multiselect', Multiselect)
 
 /* eslint-disable no-new */
 new Vue({

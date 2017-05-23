@@ -1,26 +1,21 @@
 /**
- *
- * À˘”–Õ‚≤øΩ”ø⁄≈‰÷√¬∑æ∂
+ * ÊâÄÊúâÂ§ñÈÉ®Êé•Âè£ÈÖçÁΩÆË∑ØÂæÑ
  */
 const apiUrlConfig = () => {
   let __DEV__ = process.env.NODE_ENV === 'production'
   if (!__DEV__) {
-    // ø™∑¢
+    // ÂºÄÂèë
     let apiHost = ''
     let apiRoot = `${apiHost}/manage/v1`
-    let apiPlatformRoot = `${apiHost}/platform/v1`
-    let apiStorageRoot = `${apiHost}/storage/v1`
     return {
-
+      login: `${apiRoot}/user/login` // ÁôªÂΩï
     }
   } else {
-    // ≤˙∆∑
+    // ‰∫ßÂìÅ
     let apiHost = ''
     let apiRoot = `${apiHost}/manage/v1`
-    let apiPlatformRoot = `${apiHost}/platform/v1`
-    let apiStorageRoot = `${apiHost}/storage/v1`
     return {
-    
+      login: `${apiRoot}/user/login` // ÁôªÂΩï
     }
   }
 }

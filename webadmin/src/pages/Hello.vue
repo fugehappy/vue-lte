@@ -1,13 +1,15 @@
 <template>
   <div class="hello">
     <div>
-      <img class="logo" src="../assets/logo.png">
       <button
         id="myButton"
         class="btn bg-maroon btn-flat margin"
         @click="clickBtn"
         :disabled="loading"
-        ><template v-if="loading">{{msgBye}}</template><template v-else>{{msgHello}}</template></button>
+        >
+        <template v-if="loading">{{msgBye}}</template>
+        <template v-else>{{msgHello}}</template>
+      </button>
     </div>
     <div>
       <h1>Demo list</h1>
