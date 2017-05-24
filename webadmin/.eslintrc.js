@@ -27,6 +27,8 @@ module.exports = {
 
     'no-undef': 0,
 
-    "eqeqeq": "off"
+    'eqeqeq': "off",
+
+    'camelcase': 0
   }
 }

@@ -8,7 +8,6 @@
  * License: X11/MIT
  *   See LICENSE.md
  */
-
 /*global self, unescape */
 /*jslint bitwise: true, regexp: true, confusion: true, es5: true, vars: true, white: true,
  plusplus: true */
@@ -17,10 +16,11 @@
 
 (function (view) {
     "use strict";
-
     view.URL = view.URL || view.webkitURL;
 
     if (view.Blob && view.URL) {
+        // do
+        console.log('Blog')
         try {
             new Blob;
             return;
