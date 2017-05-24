@@ -12,8 +12,9 @@ import VANaviBar from 'NaviBar.vue'
 import VASlider from 'Slider.vue'
 import VAContentWrap from 'ContentWrap.vue'
 import Modal from './components/Modal.vue'
-import store from './vuex/store.js'
 import slideMenuItems from './lib/slideMenuItems.js'
+// store
+import store from './vuex/store.js'
 
 export default {
   name: 'home',

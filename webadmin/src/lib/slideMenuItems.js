@@ -1,3 +1,4 @@
+/*菜单nemu管理*/
 module.exports = [
   {
     type: 'item',
