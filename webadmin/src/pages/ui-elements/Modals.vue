@@ -9,10 +9,16 @@
     </va-input>
     <va-select :options="selectList" v-model="selectValue" @change="handleSelect"></va-select>
     <button @click="handleSubmit">click</button>
+    <p>multiselect组件，ie不支持</p>
+    <multiselect
+      v-model="selected"
+      :options="options">
+    </multiselect>
   </div>
 </template>
 
 <script>
+import 'vue-multiselect/dist/vue-multiselect.min.css'
 import VAInput from '../../components/VAInput'
 import VASelect from '../../components/VASelect'
 export default {
@@ -21,7 +27,9 @@ export default {
     return {
       username: 'admin',
       selectList: ['wang', 'lee', 'team', 'game'],
-      selectValue: ''
+      selectValue: '',
+      selected: null,
+      options: ['list', 'of', 'options']
     }
   },
   components: {

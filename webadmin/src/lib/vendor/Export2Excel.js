@@ -134,5 +134,7 @@ export function export_json_to_excel (th, jsonData, defaultTitle) {
 
   var wbout = XLSX.write(wb, {bookType: 'xlsx', bookSST: false, type: 'binary'})
   var title = defaultTitle || '列表'
+  // 保存(此处在ie9中报错)
+  console.log('saveAs')
   saveAs(new Blob([s2ab(wbout)], {type: 'application/octet-stream'}), title + '.xlsx')
 }

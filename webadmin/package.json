@@ -12,7 +12,7 @@
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
     "fix": "eslint --fix .js,.vue src/**",
-    "fixed": "eslint --fix src/lib/vendor/Export2Excel.js"
+    "fixed": "eslint --fix src/lib/vendor/FileSaver.js"
   },
   "keywords": [
     "vuejs",

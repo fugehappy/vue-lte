@@ -3,29 +3,29 @@
     <button @click="handleDownload">导出excel</button>
     <table>
       <thead>
-        <tr>
-          <th width="80px">文章标题</th>
-          <th>作者</th>
-          <th width="80px">阅读数</th>
-          <th>发布时间</th>
-        </tr>
+      <tr>
+        <th width="80px">文章标题</th>
+        <th>作者</th>
+        <th width="80px">阅读数</th>
+        <th>发布时间</th>
+      </tr>
       </thead>
       <tbody>
-        <tr v-for="item in list">
-          <td>{{ item.author }}</td>
-          <td>{{ item.title }}</td>
-          <td>{{ item.pageviews }}</td>
-          <td>{{ item.display_time }}</td>
-        </tr>
+      <tr v-for="item in list">
+        <td>{{ item.author }}</td>
+        <td>{{ item.title }}</td>
+        <td>{{ item.pageviews }}</td>
+        <td>{{ item.display_time }}</td>
+      </tr>
       </tbody>
     </table>
   </div>
 </template>
 
 <script>
-import * as types from '../../../static/data/excelData.js'
-export default {
-  data () {
+  import * as types from '../../../static/data/excelData.js'
+  export default {
+    data () {
     return {
       list: null
     }
@@ -49,7 +49,7 @@ export default {
       return jsonData.map(v => filterVal.map(j => v[j]))
     }
   }
-}
+  }
 </script>
 
 <style>

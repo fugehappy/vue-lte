@@ -20,7 +20,7 @@
 
     if (view.Blob && view.URL) {
         // do
-        console.log('Blog')
+        // console.log('Blog')
         try {
             new Blob;
             return;

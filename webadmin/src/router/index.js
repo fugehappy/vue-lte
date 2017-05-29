@@ -22,7 +22,6 @@ import Modals from 'pages/ui-elements/Modals'
 // forms
 import GeneralElements from 'pages/forms/GeneralElements'
 import AdvancedElements from 'pages/forms/AdvancedElements'
-import Excel from 'pages/forms/Excel'
 
 // login
 import Login from 'pages/Login'
@@ -128,11 +127,6 @@ export default new Router({
       path: '/forms/advanced-elements',
       name: 'AdvancedElements',
       component: AdvancedElements
-    },
-    {
-      path: '/excel',
-      name: 'Excel',
-      component: Excel
     }
   ],
   linkActiveClass: 'active'

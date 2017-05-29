@@ -24,11 +24,15 @@ module.exports = {
     'generator-star-spacing': 0,
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-
+    // 不能有未定义的变量
     'no-undef': 0,
-
+    // ===
     'eqeqeq': "off",
-
-    'camelcase': 0
+    // 驼峰命名
+    'camelcase': 0,
+    // 变量
+    "no-unused-vars": 0,
+    // 连续声明
+    "one-var": 1
   }
 }

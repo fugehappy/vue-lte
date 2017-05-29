@@ -4,6 +4,7 @@ import './lib/css'
 import './lib/script'
 import './lib/global'
 
+import 'babel-polyfill'
 import Vue from 'vue'
 import App from './App'
 import router from './router'
