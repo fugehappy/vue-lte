@@ -14,3 +14,15 @@ npm install xlsx
 搜狗输入法上右键--设置属性
 
 webstorm文件编码：统一为UTF-8
+
+对象是引用类型，后台返回的数据一般为json,可以先使用Json.stringify(obj)
+
+filter 过滤器，对数据进行处理
+
+在使用Excel到处功能中，遇到不兼容IE9的问题，saveAs找不到
+
+动态路由的使用
+
+login登录页面制作
+
+https://adminlte.io/themes/AdminLTE/index2.html
