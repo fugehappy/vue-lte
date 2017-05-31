@@ -3,7 +3,7 @@
     <div class="login-box-body">
       <p class="login-box-msg">Sign in to start your session</p>
 
-      <form action="#" method="post">
+      <div data-name="form">
         <div class="form-group has-feedback">
           <input type="email" class="form-control" placeholder="Username">
           <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
@@ -22,11 +22,11 @@
           </div>
           <!-- /.col -->
           <div class="col-xs-4">
-            <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+            <button class="btn btn-primary btn-block btn-flat" @click="login">Sign In</button>
           </div>
           <!-- /.col -->
         </div>
-      </form>
+      </div>
 
     </div>
     <!-- /.login-box-body -->
@@ -37,10 +37,23 @@ export default {
   data () {
     return {
     }
+  },
+  methods: {
+    /**
+     * 登录操作
+     */
+    login () {
+      sessionStorage && sessionStorage.setItem('token', 'wdhfhsdfiushdfuisdhf43495468djksad')
+      this.$router.push({ path: '/hello' })
+    }
   }
 }
 </script>
 <style lang="css">
+  .skin-blue {
+    background-color: #ecf0f5;
+    min-height: 100%;
+  }
   @media (max-width: 768px) {
     .login-box {
       width: 90%;

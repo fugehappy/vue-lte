@@ -8,6 +8,7 @@ import 'babel-polyfill'
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import store from './vuex/store.js'
 import Multiselect from 'vue-multiselect'
 import EventBus from './lib/eventBus.js'
 import axios from 'axios'
@@ -17,10 +18,30 @@ Vue.prototype.$http = axios
 
 Vue.component('multiselect', Multiselect)
 
+const whiteList = ['/login']
+router.beforeEach((to, from, next) => {
+  let token = sessionStorage && sessionStorage.getItem('token')
+  if (token) {
+    // 如果token存在。说明已经登录了
+    next()
+  } else {
+    // token不存在
+    if (whiteList.indexOf(to.path) !== -1) {
+      //  在免登录白名单，直接进入
+      next()
+    } else {
+      // 否则全部重定向到登录页
+      next('/login')
+    }
+  }
+})
+
 /* eslint-disable no-new */
+/* router, store */
 new Vue({
   el: '#app',
   router,
+  store,
   template: '<App/>',
   components: {
     App

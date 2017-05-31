@@ -12,9 +12,8 @@ import VANaviBar from 'NaviBar.vue'
 import VASlider from 'Slider.vue'
 import VAContentWrap from 'ContentWrap.vue'
 import Modal from './components/Modal.vue'
-import slideMenuItems from './lib/slideMenuItems.js'
-// store
-import store from './vuex/store.js'
+// nemu 菜单
+import slideMenuItems from './lib/slideMenuItems'
 
 export default {
   name: 'home',
@@ -23,18 +22,11 @@ export default {
       slideMenuItems: slideMenuItems
     }
   },
-  created () {
-  },
   components: {
     'va-navibar': VANaviBar,
     'va-slider': VASlider,
     'va-content-wrap': VAContentWrap,
     Modal
-  },
-  store
+  }
 }
 </script>
-
-<style>
-
-</style>

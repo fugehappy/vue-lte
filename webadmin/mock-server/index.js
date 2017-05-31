@@ -1,3 +1,4 @@
+// fake
 const faker = require('faker')
 
 let productId = 1
@@ -29,7 +30,7 @@ class FakeProdcut {
 }
 
 module.exports = function () {
-  var data = { products: [] }
+  var data = { products: [], dash: [] }
   // Create 1000 Product
   data.products = generateFakeObject(FakeProdcut, 100)
   return data
@@ -37,7 +38,7 @@ module.exports = function () {
 
 function generateFakeObject (TARGETCLASS = '', count = 10) {
   if (typeof TARGETCLASS !== 'function') {
-    console.error('클래스가 아님')
+    console.error('Not Function')
     return []
   }
   let result = []
