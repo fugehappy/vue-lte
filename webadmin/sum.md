@@ -37,3 +37,5 @@ TODO
 
 权限分配
 mock数据集成
+使用json-server开启
+使用mock.js
