@@ -25,6 +25,7 @@ import AdvancedElements from 'pages/forms/AdvancedElements'
 
 // login
 import Login from 'pages/Login'
+import Err404 from 'pages/error/404'
 import Home from 'Home'
 import Hello from 'pages/Hello'
 import Sample from 'pages/Sample'
@@ -38,6 +39,11 @@ export default new Router({
       path: '/login',
       name: 'Login',
       component: Login
+    },
+    {
+      path: '/404',
+      name: '404',
+      component: Err404
     },
     {
       path: '/',
@@ -135,7 +141,8 @@ export default new Router({
           component: AdvancedElements
         }
       ]
-    }
+    },
+    { path: '*', redirect: '/404' }
   ],
   linkActiveClass: 'active'
 })

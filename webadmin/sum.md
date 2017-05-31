@@ -23,6 +23,17 @@ filter 过滤器，对数据进行处理
 
 动态路由的使用
 
-login登录页面制作
-
 https://adminlte.io/themes/AdminLTE/index2.html
+
+已经实现的功能
+
+登录页面
+登录拦截
+Excel导出
+路由配置
+404页面
+
+TODO
+
+权限分配
+mock数据集成
