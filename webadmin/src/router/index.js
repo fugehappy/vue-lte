@@ -41,11 +41,6 @@ export default new Router({
       component: Login
     },
     {
-      path: '/404',
-      name: '404',
-      component: Err404
-    },
-    {
       path: '/',
       name: 'Home',
       component: Home,
@@ -139,6 +134,11 @@ export default new Router({
           path: '/forms/advanced-elements',
           name: 'AdvancedElements',
           component: AdvancedElements
+        },
+        {
+          path: '/404',
+          name: '404',
+          component: Err404
         }
       ]
     },
@@ -146,3 +146,5 @@ export default new Router({
   ],
   linkActiveClass: 'active'
 })
+// 动态路由
+// export const asyncRouterMap = []

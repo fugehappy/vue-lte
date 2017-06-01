@@ -1,8 +1,6 @@
 <template>
-  <div style="background:#f0f2f5;margin-top: -20px;">
+  <div style="background:#f0f2f5;">
     <div class="wscn-http404">
-      <div class="pic-404">
-      </div>
       <div class="bullshit">
         <div class="bullshit__oops">OOPS!</div>
         <div class="bullshit__info">版权所有<a class='link-type' href='#' target='_blank'>华尔街见闻</a></div>
@@ -23,52 +21,6 @@ export default {
 }
 </script>
 <style scoped>
-  .pic-404 {
-    position: relative;
-    float: left;
-    width: 600px;
-    padding: 150px 0;
-    overflow: hidden;
-  }
-  .pic-404__parent {
-    width: 100%;
-  }
-  .pic-404__child {
-    position: absolute;
-  }
-  .pic-404__parent.left {
-    width: 80px;
-    top: 17px;
-    left: 220px;
-    opacity: 0;
-    animation-name: cloudLeft;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-    animation-delay: 1s;
-  }
-  .pic-404__parent.mid {
-    width: 46px;
-    top: 10px;
-    left: 420px;
-    opacity: 0;
-    animation-name: cloudMid;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-    animation-delay: 1.2s;
-  }
-  .pic-404__parent.right {
-    width: 62px;
-    top: 100px;
-    left: 500px;
-    opacity: 0;
-    animation-name: cloudRight;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-    animation-delay: 1s;
-  }
   @keyframes cloudLeft {
     0% {
       top: 17px;
@@ -137,9 +89,7 @@ export default {
   }
   .bullshit {
     position: relative;
-    float: left;
     width: 300px;
-    padding: 150px 0;
     overflow: hidden;
   }
   .bullshit__oops {

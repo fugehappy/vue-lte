@@ -23,7 +23,11 @@ router.beforeEach((to, from, next) => {
   let token = sessionStorage && sessionStorage.getItem('token')
   if (token) {
     // 如果token存在。说明已经登录了
-    next()
+    if (to.path === '/') {
+      next({ path: '/hello' })
+    } else {
+      next()
+    }
   } else {
     // token不存在
     if (whiteList.indexOf(to.path) !== -1) {
@@ -31,7 +35,7 @@ router.beforeEach((to, from, next) => {
       next()
     } else {
       // 否则全部重定向到登录页
-      next('/login')
+      next({ path: '/login' })
     }
   }
 })

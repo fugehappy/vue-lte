@@ -11,3 +11,10 @@ export const fetchProduct = ({ commit }) => {
     console.error('@@@', error)
   })
 }
+
+export const loginByEmail = ({ commit }, payload) => {
+  // API request
+  return services.user.loginByEmail(payload)
+    .then((response) => {
+    })
+}

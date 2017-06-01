@@ -22,6 +22,7 @@ filter 过滤器，对数据进行处理
 在使用Excel到处功能中，遇到不兼容IE9的问题，saveAs找不到
 
 动态路由的使用
+http://localhost:8080/#/sample?id=1
 
 https://adminlte.io/themes/AdminLTE/index2.html
 

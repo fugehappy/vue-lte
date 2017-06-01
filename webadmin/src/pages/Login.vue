@@ -5,11 +5,11 @@
 
       <div data-name="form">
         <div class="form-group has-feedback">
-          <input type="email" class="form-control" placeholder="Username">
+          <input type="email" v-model="loginForm.email" class="form-control" placeholder="Username">
           <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
         </div>
         <div class="form-group has-feedback">
-          <input type="password" class="form-control" placeholder="Password">
+          <input type="password" v-model="loginForm.password" class="form-control" placeholder="Password">
           <span class="glyphicon glyphicon-lock form-control-feedback"></span>
         </div>
         <div class="row">
@@ -22,7 +22,7 @@
           </div>
           <!-- /.col -->
           <div class="col-xs-4">
-            <button class="btn btn-primary btn-block btn-flat" @click="login">Sign In</button>
+            <button class="btn btn-primary btn-block btn-flat" @click="handleLogin">Sign In</button>
           </div>
           <!-- /.col -->
         </div>
@@ -36,13 +36,17 @@
 export default {
   data () {
     return {
+      loginForm: {
+        email: 'admin@sina.com',
+        password: ''
+      }
     }
   },
   methods: {
     /**
      * 登录操作
      */
-    login () {
+    handleLogin () {
       sessionStorage && sessionStorage.setItem('token', 'wdhfhsdfiushdfuisdhf43495468djksad')
       this.$router.push({ path: '/hello' })
     }
