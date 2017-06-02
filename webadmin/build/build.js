@@ -2,7 +2,7 @@ require('./check-versions')()
 
 process.env.NODE_ENV = 'production'
 
-var ora = require('ora')
+var ora = require('ora') // loading插件
 var path = require('path')
 var chalk = require('chalk')
 var shell = require('shelljs')

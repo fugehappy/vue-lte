@@ -1,3 +1,4 @@
+/* 全局注册组件 */
 import Vue from 'vue'
 import Row from '../grid/Row'
 import Column from '../grid/Column'
