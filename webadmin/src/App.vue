@@ -11,10 +11,4 @@ export default {
 </script>
 
 <style>
-  html, body, #app{
-    height: 100% !important;
-  }
-  #app > div{
-    height: 100%;
-  }
 </style>

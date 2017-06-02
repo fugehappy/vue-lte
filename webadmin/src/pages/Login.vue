@@ -64,7 +64,6 @@ export default {
 <style lang="css">
   .skin-blue {
     background-color: #ecf0f5;
-    min-height: 100%;
   }
   @media (max-width: 768px) {
     .login-box {
@@ -72,9 +71,9 @@ export default {
       margin-top: 20px;
     }
   }
-
   .login-box {
     width: 360px;
-    margin: 7% auto;
+    margin: 0 auto;
+    padding-top: 10%;
   }
 </style>
