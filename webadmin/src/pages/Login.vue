@@ -33,6 +33,7 @@
   </div>
 </template>
 <script>
+import { mapGetters } from 'vuex'
 export default {
   data () {
     return {
@@ -42,13 +43,20 @@ export default {
       }
     }
   },
+  computed: {
+    ...mapGetters([
+      'userToken'
+    ])
+  },
   methods: {
     /**
      * 登录操作
      */
     handleLogin () {
-      sessionStorage && sessionStorage.setItem('token', 'wdhfhsdfiushdfuisdhf43495468djksad')
-      this.$router.push({ path: '/hello' })
+      this.$store.dispatch('loginByEmail', this.loginForm).then((res) => {
+        sessionStorage && sessionStorage.setItem('token', this.userToken)
+        this.$router.push({ path: '/hello' })
+      })
     }
   }
 }

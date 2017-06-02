@@ -1,24 +1,37 @@
 export default {
   loginByEmail (request = {}) {
+    // 模拟后台请求响应
     return new Promise((resolve, reject) => {
-      if (request) {
-        let response = {
-          status: 200,
-          data: {
-            msg: 'ok',
-            token: 'wdhfhsdfiushdfuisdhf43495468djksad'
+      if (request.email === 'admin@sina.com') {
+        let value = {
+          request: {
+            readyState: 4,
+            response: {
+              message: 'ok',
+              token: 'eyYip2qNN-4W7frqZmxuhuNysjTRqr0eMVzl6A5XsdL0qQzlg==='
+            },
+            responseURL: '',
+            statusText: 'ok',
+            status: 200
           }
         }
-        resolve()
+        resolve(value)
       } else {
-        let error = {
-          status: 400,
-          data: {
-            msg: '参数错误'
+        let value = {
+          request: {
+            readyState: 4,
+            response: {
+              message: '参数错误'
+            },
+            responseURL: '',
+            statusText: 'Bad Request',
+            status: 400
           }
         }
-        reject(error)
+        reject(value)
       }
     })
+    .then((response) => Promise.resolve(response))
+    .catch((error) => Promise.reject(error))
   }
 }

@@ -8,13 +8,17 @@ export const fetchProduct = ({ commit }) => {
     commit(types.FETCH_PRODUCT, response.data)
   })
   .catch((error) => {
-    console.error('@@@', error)
+    console.error(error)
   })
 }
 
 export const loginByEmail = ({ commit }, payload) => {
-  // API request
   return services.user.loginByEmail(payload)
     .then((response) => {
+      commit(types.USER_TOKEN, response.request.response.token)
+      return response
+    })
+    .catch((error) => {
+      return error
     })
 }
