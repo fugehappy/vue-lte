@@ -15,7 +15,7 @@ npm install xlsx
 
 webstorm文件编码：统一为UTF-8
 
-对象是引用类型，后台返回的数据一般为json,可以先使用Json.stringify(obj)
+对象是引用类型，后台返回的数据一般为json,可以先使用Json.stringify(obj),也可以lodash工具库
 
 filter 过滤器，对数据进行处理
 

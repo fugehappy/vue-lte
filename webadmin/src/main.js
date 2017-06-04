@@ -9,14 +9,20 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from './vuex/store.js'
-import Multiselect from 'vue-multiselect'
+
 import EventBus from './lib/eventBus.js'
 import axios from 'axios'
 
+// http request 拦截器
+axios.interceptors.request.use(config => {
+  config.headers.Authorization = sessionStorage.getItem('token')
+  return config
+}, err => {
+  return Promise.reject(err)
+})
+
 Vue.prototype.$bus = EventBus
 Vue.prototype.$http = axios
-
-Vue.component('multiselect', Multiselect)
 
 const whiteList = ['/login']
 router.beforeEach((to, from, next) => {
