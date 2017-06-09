@@ -7,7 +7,7 @@ import 'jquery-ui/ui/widgets/sortable.js'
 import 'jquery-ui/ui/widgets/datepicker.js'
 import 'jquery-ui/themes/base/datepicker.css'
 
-// import '../../static/js/app.js'
+// import '../../static/js/admin-lte.js'
 import 'admin-lte'
 import 'chart.js'
 
