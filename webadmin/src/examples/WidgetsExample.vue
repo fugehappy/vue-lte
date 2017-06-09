@@ -1,6 +1,7 @@
 <template>
   <div>
     <row>
+      <h2 class="col-md-12 col-sm-12 col-xs-12">va-info-box</h2>
       <div class="col-md-3 col-sm-6 col-xs-12">
         <va-info-box
             bgColor="bg-aqua"
@@ -89,6 +90,7 @@
       </div>
     </row>
     <row>
+      <h2 class="col-md-12 col-sm-12 col-xs-12">va-small-box</h2>
       <div class="col-md-3 col-sm-6 col-xs-12">
         <va-small-box
           color="aqua"
@@ -127,6 +129,7 @@
       </div>
     </row>
     <row>
+      <h2 class="col-md-12 col-sm-12 col-xs-12">va-box</h2>
       <div class="col-md-3 col-sm-6 col-xs-12">
         <va-box
           theme="box-default"
@@ -219,6 +222,7 @@
       </div>
     </row>
     <row>
+      <h2 class="col-md-12 col-sm-12 col-xs-12">va-direct-chat</h2>
       <div class="col-md-3 col-sm6 col-xs-12">
         <va-direct-chat
           theme="primary"
@@ -226,7 +230,7 @@
           :contacts="contacts"
           title="Direct Chat"
           :badgeCount="3"
-          placeholder="내용을 입력하세요..."
+          placeholder="请输入内容..."
         ></va-direct-chat>
       </div>
       <div class="col-md-3 col-sm6 col-xs-12">
@@ -236,7 +240,7 @@
           :contacts="contacts"
           title="Direct Chat"
           :badgeCount="3"
-          placeholder="내용을 입력하세요..."
+          placeholder="请输入内容..."
         ></va-direct-chat>
       </div>
       <div class="col-md-3 col-sm6 col-xs-12">
@@ -246,7 +250,7 @@
           :contacts="contacts"
           title="Direct Chat"
           :badgeCount="3"
-          placeholder="내용을 입력하세요..."
+          placeholder="请输入内容..."
         ></va-direct-chat>
       </div>
       <div class="col-md-3 col-sm6 col-xs-12">
@@ -256,12 +260,12 @@
           :contacts="contacts"
           title="Direct Chat"
           :badgeCount="3"
-          placeholder="내용을 입력하세요..."
+          placeholder="请输入内容..."
         ></va-direct-chat>
       </div>
     </row>
 
-    <!-- TODO: Typography Component 완성 후 교체예정 -->
+    <!-- TODO: Typography Component -->
     <h2 class="page-header">Social Widgets</h2>
 
     <row>
