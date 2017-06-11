@@ -32,7 +32,7 @@
 
 <script>
 import { mapGetters, mapActions } from 'vuex'
-import { export_json_to_excel } from '../lib/vendor/Export2Excel.js'
+import { export_json_to_excel } from '../../lib/vendor/Export2Excel.js'
 
 export default {
   created () {

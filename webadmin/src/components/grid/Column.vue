@@ -1,5 +1,5 @@
 <template>
-  <div :className="this['className']">
+  <div :class="className">
     <slot></slot>
   </div>
 </template>
@@ -8,13 +8,10 @@
 export default {
   name: 'column',
   props: {
-    'className': {
+    className: {
       type: String,
       default: ''
     }
-  },
-  created () {
-
   }
 }
 </script>

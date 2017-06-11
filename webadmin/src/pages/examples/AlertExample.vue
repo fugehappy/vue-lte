@@ -91,7 +91,7 @@
   </div>
 </template>
 <script>
-import VAAlert from '../components/VAAlert.vue'
+import VAAlert from '../../components/VAAlert.vue'
 
 export default {
   components: {

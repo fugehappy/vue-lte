@@ -341,7 +341,7 @@
 </template>
 
 <script>
-import VABox from '../../widgets/VABox.vue'
+import VABox from '../../components/widgets/VABox.vue'
 import VAButton from '../../components/VAButton.vue'
 
 export default {

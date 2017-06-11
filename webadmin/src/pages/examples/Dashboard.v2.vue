@@ -101,9 +101,9 @@
 </template>
 
 <script>
-import VAInfoBox from '../widgets/VAInfoBox.vue'
-import VADirectChat from '../widgets/VADirectChat.vue'
-import VAUserList from '../widgets/VAUserList.vue'
+import VAInfoBox from '../../components/widgets/VAInfoBox.vue'
+import VADirectChat from '../../components/widgets/VADirectChat.vue'
+import VAUserList from '../../components/widgets/VAUserList.vue'
 
 export default {
   name: 'DashboardV2',

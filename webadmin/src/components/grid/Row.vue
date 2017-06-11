@@ -6,9 +6,6 @@
 
 <script>
 export default {
-  name: 'row',
-  created () {
-
-  }
+  name: 'row'
 }
 </script>

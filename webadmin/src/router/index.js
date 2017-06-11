@@ -2,14 +2,14 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 // examples
-import DashboardV1 from 'examples/Dashboard.v1'
-import DashboardV2 from 'examples/Dashboard.v2'
-import InfoBoxExample from 'examples/InfoBoxExample'
-import ChartExample from 'examples/ChartExample'
-import AlertExample from 'examples/AlertExample'
-import ModalExample from 'examples/ModalExample'
-import WidgetsExample from 'examples/WidgetsExample'
-import APIExample from 'examples/APIExample'
+import DashboardV1 from 'pages/examples/Dashboard.v1'
+import DashboardV2 from 'pages/examples/Dashboard.v2'
+import InfoBoxExample from 'pages/examples/InfoBoxExample'
+import ChartExample from 'pages/examples/ChartExample'
+import AlertExample from 'pages/examples/AlertExample'
+import ModalExample from 'pages/examples/ModalExample'
+import WidgetsExample from 'pages/examples/WidgetsExample'
+import APIExample from 'pages/examples/APIExample'
 
 // UI Element Groups
 import General from 'pages/ui-elements/General'

@@ -422,7 +422,7 @@
 </template>
 
 <script>
-import VABox from '../../widgets/VABox'
+import VABox from '../../components/widgets/VABox'
 import VAInputGroup from '../../components/VAInputGroup'
 import VACheckBox from '../../components/VACheckBox'
 import VAInput from '../../components/VAInput'
