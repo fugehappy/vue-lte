@@ -15,14 +15,6 @@ module.exports = [
       {
         type: 'item',
         icon: 'fa fa-circle-o',
-        name: 'hello',
-        router: {
-          name: 'Hello'
-        }
-      },
-      {
-        type: 'item',
-        icon: 'fa fa-circle-o',
         name: 'sample',
         router: {
           name: 'Sample'

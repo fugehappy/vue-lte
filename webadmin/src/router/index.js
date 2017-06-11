@@ -25,10 +25,11 @@ import AdvancedElements from 'pages/forms/AdvancedElements'
 
 // login
 import Login from 'pages/Login'
-import Err404 from 'pages/error/404'
+import ForgetPwd from 'pages/ForgetPwd'
 import Home from 'Home'
 import Hello from 'pages/Hello'
 import Sample from 'pages/Sample'
+import Err404 from 'pages/error/404'
 
 Vue.use(Router)
 
@@ -39,6 +40,11 @@ export default new Router({
       path: '/login',
       name: 'Login',
       component: Login
+    },
+    {
+      path: '/forgetPwd',
+      name: 'ForgetPwd',
+      component: ForgetPwd
     },
     {
       path: '/',

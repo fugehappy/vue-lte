@@ -9,7 +9,7 @@ import router from '../router.js'
  * @param res 返回的结果
  * @param fn 成功中执行的回调
  */
-export const statusHandle = (res, fn) => {
+export const statusHandle = (res, that, fn) => {
   let vm = Vue.prototype
   if (!res) {
     vm.$message({
@@ -48,11 +48,12 @@ export const statusHandle = (res, fn) => {
         break
       case 200:
         // 响应成功
-        typeof fn === 'function' && fn()
+        typeof fn === 'function' && fn(that)
         break
       default:
         // 其他错误
         if (res.data) {
+          // 错误信息统一在message中
           let err = res.data.message
           if (err) {
             vm.$message({

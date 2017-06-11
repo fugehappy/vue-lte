@@ -343,14 +343,14 @@ export default {
         {
           name: 'Alexander Pierce',
           date: new Date(),
-          profileImage: 'http://cfile9.uf.tistory.com/image/25270C4853F7057D09BFD3',
+          profileImage: '/static/img/naver.jpg',
           message: `Is this template really for free? That's unbelievable`,
           isMine: false
         },
         {
           name: 'Sarah Bullock',
           date: new Date(),
-          profileImage: 'http://cfile9.uf.tistory.com/image/25270C4853F7057D09BFD3',
+          profileImage: '/static/img/naver.jpg',
           message: `You better believe it!`,
           isMine: true
         }
@@ -358,37 +358,37 @@ export default {
       contacts: [
         {
           name: 'Count Dracula',
-          profileImage: 'http://cfile9.uf.tistory.com/image/25270C4853F7057D09BFD3',
+          profileImage: '/static/img/naver.jpg',
           latestMessage: 'How have you been? I was...',
           latestDate: new Date()
         },
         {
           name: 'Sarah Doe',
-          profileImage: 'http://cfile9.uf.tistory.com/image/25270C4853F7057D09BFD3',
+          profileImage: '/static/img/naver.jpg',
           latestMessage: 'I will be waiting for...',
           latestDate: new Date()
         },
         {
           name: 'Nadia Jolie',
-          profileImage: 'http://cfile9.uf.tistory.com/image/25270C4853F7057D09BFD3',
+          profileImage: '/static/img/naver.jpg',
           latestMessage: `I'll call you back at...`,
           latestDate: new Date()
         },
         {
           name: 'Nora S. Vans',
-          profileImage: 'http://cfile9.uf.tistory.com/image/25270C4853F7057D09BFD3',
+          profileImage: '/static/img/naver.jpg',
           latestMessage: 'Where is your new...',
           latestDate: new Date()
         },
         {
           name: 'John K.',
-          profileImage: 'http://cfile9.uf.tistory.com/image/25270C4853F7057D09BFD3',
+          profileImage: '/static/img/naver.jpg',
           latestMessage: 'Can I take a look at...',
           latestDate: new Date()
         },
         {
           name: 'Kenneth M.',
-          profileImage: 'http://cfile9.uf.tistory.com/image/25270C4853F7057D09BFD3',
+          profileImage: '/static/img/naver.jpg',
           latestMessage: 'Naver mine I found...',
           latestDate: new Date()
         }

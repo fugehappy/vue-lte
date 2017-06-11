@@ -1,14 +1,14 @@
-import axios from 'axios'
+import fetch from '../../../lib/utils/fetch'
 
 export default {
   getAll () {
-    return axios.get('http://localhost:9728/products')
+    return fetch.get('/products')
       .then((response) => Promise.resolve(response))
       .catch((error) => Promise.reject(error))
   },
 
   getOne (request = {}) {
-    return axios.get('http://localhost:9728/products', request)
+    return fetch.get('/products', { params: request })
       .then((response) => Promise.resolve(response))
       .catch((error) => Promise.reject(error))
   }
