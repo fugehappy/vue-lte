@@ -1,0 +1,2759 @@
+{
+    "data": {
+        "page_permissions": "c r u d",
+        "roles": [
+            {
+                "is_active": true,
+                "updated_at": 1496969308475,
+                "permissions": [
+                    {
+                        "name": null,
+                        "key": "organizations",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "serverHost_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "users",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrules",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations_test",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_validators",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_validate",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_originalData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_download",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_cache",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "resources",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_biz-services",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_sys-services",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_disk",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_memory",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_cpu",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "loadingfailure",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "pagination",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "message",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "table",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "form",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "roles",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "admins",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "config",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_logs",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrule",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machine_getone",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "transform",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "ClearData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheet",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "report",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_add",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_verify",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_transform",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_clean",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uncached",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uploads",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "role_list",
+                        "available_operations": "r"
+                    },
+                    {
+                        "name": null,
+                        "key": "user_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "admin_list",
+                        "available_operations": ""
+                    }
+                ],
+                "name": "ttttt ",
+                "description": null,
+                "created_at": null,
+                "id": 128,
+                "create_user": "admin",
+                "updated_user": null
+            },
+            {
+                "is_active": true,
+                "updated_at": 1496989157932,
+                "permissions": [
+                    {
+                        "name": null,
+                        "key": "serverHost_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "users",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrules",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations_test",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_validators",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_validate",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_originalData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_download",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_cache",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "resources",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_biz-services",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_sys-services",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_disk",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_memory",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_cpu",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "loadingfailure",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "pagination",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "message",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "table",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "form",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "roles",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "admins",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "config",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_logs",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrule",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machine_getone",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "transform",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "ClearData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheet",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "report",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_add",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_verify",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_transform",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_clean",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uncached",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uploads",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "role_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "user_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "admin_list",
+                        "available_operations": ""
+                    }
+                ],
+                "name": "asdwexca",
+                "description": null,
+                "created_at": null,
+                "id": 127,
+                "create_user": "admin",
+                "updated_user": "admin"
+            },
+            {
+                "is_active": true,
+                "updated_at": 1496974957834,
+                "permissions": [
+                    {
+                        "name": null,
+                        "key": "serverHost_list",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "users",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrules",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations_test",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_validators",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_validate",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_originalData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_download",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_cache",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "resources",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_biz-services",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_sys-services",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_disk",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_memory",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_cpu",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "loadingfailure",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "pagination",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "message",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "table",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "form",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "roles",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "admins",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "config",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_logs",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrule",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machine_getone",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "transform",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "ClearData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheet",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "report",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_add",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_verify",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_transform",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_clean",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uncached",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uploads",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "role_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "user_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "admin_list",
+                        "available_operations": ""
+                    }
+                ],
+                "name": "absc",
+                "description": null,
+                "created_at": null,
+                "id": 126,
+                "create_user": "admin",
+                "updated_user": "admin"
+            },
+            {
+                "is_active": true,
+                "updated_at": 1496885076369,
+                "permissions": [
+                    {
+                        "name": null,
+                        "key": "serverHost_list",
+                        "available_operations": "r"
+                    },
+                    {
+                        "name": null,
+                        "key": "users",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrules",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations_test",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_validators",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_validate",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_originalData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_download",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_cache",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "resources",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_biz-services",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_sys-services",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_disk",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_memory",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_cpu",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "loadingfailure",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "pagination",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "message",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "table",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "form",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "roles",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "admins",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "config",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_logs",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrule",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machine_getone",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "transform",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "ClearData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheet",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "report",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_add",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_verify",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_transform",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_clean",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uncached",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uploads",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "role_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "user_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "admin_list",
+                        "available_operations": ""
+                    }
+                ],
+                "name": "vbwecsdf",
+                "description": null,
+                "created_at": null,
+                "id": 125,
+                "create_user": "admin",
+                "updated_user": null
+            },
+            {
+                "is_active": true,
+                "updated_at": 1496885463385,
+                "permissions": [
+                    {
+                        "name": null,
+                        "key": "serverHost_list",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrules",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations_test",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_validators",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_validate",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_originalData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_download",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_cache",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "resources",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_biz-services",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_sys-services",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_disk",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_memory",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_cpu",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "loadingfailure",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "pagination",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "message",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "table",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "form",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "roles",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "admins",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "config",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_logs",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrule",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machine_getone",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "transform",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "ClearData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheet",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "report",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_add",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_verify",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_transform",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_clean",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uncached",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uploads",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "role_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "user_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "admin_list",
+                        "available_operations": ""
+                    }
+                ],
+                "name": "test4",
+                "description": null,
+                "created_at": null,
+                "id": 124,
+                "create_user": "admin",
+                "updated_user": "admin"
+            },
+            {
+                "is_active": true,
+                "updated_at": 1496885029964,
+                "permissions": [
+                    {
+                        "name": null,
+                        "key": "serverHost_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "users",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrules",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations_test",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations",
+                        "available_operations": "r"
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_validators",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_validate",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_originalData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_download",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_cache",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "resources",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_biz-services",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_sys-services",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_disk",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_memory",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_cpu",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "loadingfailure",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "pagination",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "message",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "table",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "form",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "roles",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "admins",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "config",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_logs",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrule",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machine_getone",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "transform",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "ClearData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheet",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "report",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_add",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_verify",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_transform",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_clean",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uncached",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uploads",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "role_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "user_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "admin_list",
+                        "available_operations": ""
+                    }
+                ],
+                "name": "sdxvvvxbv",
+                "description": null,
+                "created_at": null,
+                "id": 121,
+                "create_user": "admin",
+                "updated_user": null
+            },
+            {
+                "is_active": true,
+                "updated_at": 1496828155259,
+                "permissions": [
+                    {
+                        "name": null,
+                        "key": "serverHost_list",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrules",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors_query",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations_test",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_validators",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_validate",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_originalData",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data_query",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_download",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_cache",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_sheets",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "resources",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_biz-services",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_sys-services",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_disk",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_memory",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_cpu",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "machines",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "loadingfailure",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "pagination",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "message",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "table",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "form",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "roles",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "admins",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "config",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_logs",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrule",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "machine_getone",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "transform",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "ClearData",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheet",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "report",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "rules",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_add",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_verify",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_transform",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_clean",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uncached",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_list",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uploads",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "role_list",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "user_list",
+                        "available_operations": "c r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "admin_list",
+                        "available_operations": "c r u"
+                    }
+                ],
+                "name": "TEST021",
+                "description": null,
+                "created_at": null,
+                "id": 120,
+                "create_user": "admin",
+                "updated_user": "admin"
+            },
+            {
+                "is_active": true,
+                "updated_at": 1496827502169,
+                "permissions": [
+                    {
+                        "name": null,
+                        "key": "serverHost_list",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrules",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors_query",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations_test",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_validators",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_validate",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_originalData",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data_query",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_download",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_cache",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_sheets",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "resources",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_biz-services",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_sys-services",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_disk",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_memory",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_cpu",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "machines",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "loadingfailure",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "pagination",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "message",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "table",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "form",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "roles",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "admins",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "config",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_logs",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrule",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "machine_getone",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "transform",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "ClearData",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheet",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "report",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "rules",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_add",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_verify",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_transform",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_clean",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uncached",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_list",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uploads",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "role_list",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "user_list",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": null,
+                        "key": "admin_list",
+                        "available_operations": "c r u d"
+                    }
+                ],
+                "name": "admin1",
+                "description": null,
+                "created_at": null,
+                "id": 114,
+                "create_user": "admin",
+                "updated_user": "admin"
+            },
+            {
+                "is_active": true,
+                "updated_at": 1496712839003,
+                "permissions": [
+                    {
+                        "name": null,
+                        "key": "mirrors_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations_test",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_validators",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_validate",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_originalData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_download",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_cache",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "resources",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_biz-services",
+                        "available_operations": ""
+                    }
+                ],
+                "name": "testw",
+                "description": null,
+                "created_at": null,
+                "id": 111,
+                "create_user": "admin",
+                "updated_user": "admin"
+            },
+            {
+                "is_active": true,
+                "updated_at": 1496801985884,
+                "permissions": [
+                    {
+                        "name": null,
+                        "key": "mirrors_query",
+                        "available_operations": "c r"
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations_test",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_validators",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_validate",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_originalData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_download",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_cache",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "resources",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_biz-services",
+                        "available_operations": ""
+                    }
+                ],
+                "name": "tests1",
+                "description": null,
+                "created_at": null,
+                "id": 108,
+                "create_user": "admin",
+                "updated_user": "admin"
+            },
+            {
+                "is_active": true,
+                "updated_at": 1496971626409,
+                "permissions": [
+                    {
+                        "name": null,
+                        "key": "serverHost_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "users",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrules",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors_query",
+                        "available_operations": "r u"
+                    },
+                    {
+                        "name": null,
+                        "key": "mirrors",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations_test",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_operations",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_validators",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_validate",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_originalData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data_query",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_data",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_download",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_cache",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_sheets",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "resources",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_biz-services",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_sys-services",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_disk",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_memory",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines_cpu",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machines",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "loadingfailure",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "pagination",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "message",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "table",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "form",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "roles",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "admins",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "config",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_logs",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "alarmrule",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "machine_getone",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "transform",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "ClearData",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheet",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "report",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "rules_add",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_verify",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_transform",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "sheets_clean",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uncached",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "uploads_uploads",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "role_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "user_list",
+                        "available_operations": ""
+                    },
+                    {
+                        "name": null,
+                        "key": "admin_list",
+                        "available_operations": ""
+                    }
+                ],
+                "name": "adsasad",
+                "description": null,
+                "created_at": null,
+                "id": 106,
+                "create_user": "admin",
+                "updated_user": "admin"
+            },
+            {
+                "is_active": true,
+                "updated_at": 1496625300311,
+                "permissions": [
+                    {
+                        "name": "控制台",
+                        "key": "machine_getone",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "数据清洗",
+                        "key": "sheets_clean",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "查看报表",
+                        "key": "report",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "分页",
+                        "key": "pagination",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "资源列表",
+                        "key": "resources",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "查询单个工作表的数据",
+                        "key": "sheets_data_query",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "工作表的未清洗前的数据",
+                        "key": "sheets_originalData",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "数据验证",
+                        "key": "sheets_validate",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "验证器列表",
+                        "key": "rules_validators",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "字符串操作列表",
+                        "key": "rules_operations",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "镜像业务表列表",
+                        "key": "mirrors",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "查询镜像业务表数据",
+                        "key": "mirrors_query",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "文档上传",
+                        "key": "uploads_uploads",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "文档列表",
+                        "key": "uploads_list",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "数据缓存",
+                        "key": "uploads_uncached",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "数据转换",
+                        "key": "sheets_transform",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "数据校验",
+                        "key": "sheets_verify",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "添加规则",
+                        "key": "rules_add",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "规则管理",
+                        "key": "rules",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "工作表详情",
+                        "key": "sheet",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "清洗操作",
+                        "key": "ClearData",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "转换操作",
+                        "key": "transform",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "警报规则",
+                        "key": "alarmrule",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "日志",
+                        "key": "sheets_logs",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "配置",
+                        "key": "config",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "用户管理",
+                        "key": "admins",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "角色管理",
+                        "key": "roles",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "表单",
+                        "key": "form",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "列表",
+                        "key": "table",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "消息",
+                        "key": "message",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "加载失败",
+                        "key": "loadingfailure",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "服务器信息",
+                        "key": "machines",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "CPU使用情况",
+                        "key": "machines_cpu",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "内存使用情况",
+                        "key": "machines_memory",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "磁盘使用情况",
+                        "key": "machines_disk",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "系统服务运行情况",
+                        "key": "machines_sys-services",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "业务服务运行情况",
+                        "key": "machines_biz-services",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "数据表列表",
+                        "key": "uploads_sheets",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "解析并缓存上传文档",
+                        "key": "uploads_cache",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "下载上传文档",
+                        "key": "uploads_download",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "工作表-Sheet",
+                        "key": "sheets",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "获取单个工作表的数据",
+                        "key": "sheets_data",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "测试字符串操作",
+                        "key": "rules_operations_test",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "test2",
+                        "key": "user_list",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "test3",
+                        "key": "role_list",
+                        "available_operations": "c r u d"
+                    },
+                    {
+                        "name": "test",
+                        "key": "admin_list",
+                        "available_operations": "c r u d"
+                    }
+                ],
+                "name": "test2",
+                "description": null,
+                "created_at": null,
+                "id": 33,
+                "create_user": "admin",
+                "updated_user": "admin"
+            }
+        ],
+        "paging": {
+            "current": 1,
+            "page_size": 15,
+            "total": 12,
+            "param": null
+        }
+    },
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+        "date": "Mon, 12 Jun 2017 01:35:30 GMT",
+        "connection": "close",
+        "x-powered-by": "Express",
+        "transfer-encoding": "chunked",
+        "content-type": "application/json;charset=UTF-8"
+    },
+    "config": {
+        "transformRequest": {},
+        "transformResponse": {},
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "X_ETL_TOKEN": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9.UWa8ze6NNGGbwCHBZLrU8YNlox3GH7T4q07b4FrW1eluPhuIGnktf9Tb9SlaY-tK5uxN7LOZLZNp7-J6kfRylw"
+        },
+        "method": "get",
+        "params": {
+            "current": 1
+        },
+        "url": "/api/roles"
+    },
+    "request": {}
+}
