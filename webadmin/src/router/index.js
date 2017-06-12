@@ -31,6 +31,9 @@ import Hello from 'pages/Hello'
 import Sample from 'pages/Sample'
 import Err404 from 'pages/error/404'
 
+// other
+import Resources from 'pages/pro/role/Resources'
+
 Vue.use(Router)
 
 export default new Router({
@@ -140,6 +143,11 @@ export default new Router({
           path: '/forms/advanced-elements',
           name: 'AdvancedElements',
           component: AdvancedElements
+        },
+        {
+          path: '/pro/resources',
+          name: 'Resources',
+          component: Resources
         },
         {
           path: '/404',

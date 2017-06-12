@@ -4,7 +4,7 @@ import store from '../../vuex/store'
 // 创建axios实例
 const service = axios.create({
   baseURL: 'http://localhost:9728/',
-  timeout: 10000 // 请求超时时间
+  timeout: 50000 // 请求超时时间
 })
 
 // request拦截器
