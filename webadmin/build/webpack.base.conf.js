@@ -4,6 +4,7 @@ var config = require('../config')
 var vueLoaderConfig = require('./vue-loader.conf')
 
 function resolve (dir) {
+  // 返回绝对路径
   return path.join(__dirname, '..', dir)
 }
 

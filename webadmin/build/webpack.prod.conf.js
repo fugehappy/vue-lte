@@ -44,8 +44,8 @@ var webpackConfig = merge(baseWebpackConfig, {
     new HtmlWebpackPlugin({
       filename: process.env.NODE_ENV === 'testing'
         ? 'index.html'
-        : config.build.index,
-      template: 'index.html',
+        : config.build.index,// 打包后的入口文件
+      template: 'index.html',// 打包前的模板入口文件
       inject: true,
       minify: {
         removeComments: true,
