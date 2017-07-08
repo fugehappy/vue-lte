@@ -37,6 +37,11 @@ Excel导出
 TODO
 
 权限分配
-mock数据集成
-使用json-server开启
+mock数据集成(提供数据faker)
+使用json-server开启(提供服务器)
+get: (http://localhost:9728/products/)
+post: (http://localhost:9728/products/, {'name': 'names'})
+put: (http://localhost:9728/products/2, {'name': 'names2'})
+delete: http://localhost:9728/products/102
 使用mock.js
+
