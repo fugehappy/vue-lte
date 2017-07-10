@@ -23,7 +23,33 @@ const actions = {
    * 获取所有资源列表的action
    */
   getAllResourcesList ({commit}, payload) {
-    return services.auth.getAllResourcesList()
+    return services.pro.getAllResourcesList(payload)
+    .then((response) => {
+      return response
+    })
+    .catch((error) => {
+      return error.response
+    })
+  },
+
+  /**
+   * 修改单个资源的action
+   */
+  updateOneResources ({commit}, payload) {
+    return services.pro.updateOneResources(payload)
+    .then((response) => {
+      return response
+    })
+    .catch((error) => {
+      return error.response
+    })
+  },
+
+  /**
+   * 修改单个资源的action
+   */
+  delOneResources ({commit}, payload) {
+    return services.pro.delOneResources(payload)
     .then((response) => {
       return response
     })

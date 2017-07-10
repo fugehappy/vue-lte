@@ -12,7 +12,7 @@
         <td>
           <a href="javascript:;">修改</a>
           <span style="padding: 10px"></span>
-          <a href="javascript:;" @click="handleDelete(list, item.id)">删除</a>
+          <a href="javascript:;" @click="handleDelete(item.id)">删除</a>
         </td>
       </tr>
       <tr v-if="!list">
@@ -43,21 +43,18 @@
     mounted () {
       this.getAllResourcesList().then((res) => {
         if (res.status === 200) {
-          this.list = res.data
+          this.list = res.data.roles
         }
       })
     },
     methods: {
       ...mapActions([
-        'getAllResourcesList'
+        'getAllResourcesList',
+        'delOneResources'
       ]),
-      handleDelete (arrList, id) {
-        let tableData = arrList
-        tableData.forEach(function (data) {
-          if (id === data.id) {
-            tableData.splice(tableData.indexOf(data), 1)
-          }
-        })
+      handleDelete (id) {
+        // tableData.splice(tableData.indexOf(data), 1)
+        this.delOneResources({id: id})
       }
     }
   }
