@@ -1,5 +1,6 @@
 <template>
   <div>
+    <button class="btn btn-info" style="margin-bottom: 10px;" @click="handleAdd">添加</button>
     <table border="1" width="100%" class="res-table">
       <tr>
         <th>序号</th>
@@ -41,20 +42,61 @@
       ])
     },
     mounted () {
-      this.getAllResourcesList().then((res) => {
-        if (res.status === 200) {
-          this.list = res.data.roles
-        }
-      })
+      this.getResources()
     },
     methods: {
       ...mapActions([
         'getAllResourcesList',
+        'addOneResources',
         'delOneResources'
       ]),
+      /**
+       * 获取
+       */
+      getResources () {
+        this.getAllResourcesList().then((res) => {
+          if (res.status === 200) {
+            this.list = res.data
+          }
+        })
+      },
+
+      /**
+       * 添加
+       */
+      handleAdd () {
+        // tableData.splice(tableData.indexOf(data), 1)
+        let _this = this
+        let data = {
+          'permissions': [{
+            'name': '控制台',
+            'key': 'machine_getone',
+            'available_operations': 'c r u d'
+          },
+          {
+            'name': '数据清洗',
+            'key': 'sheets_clean',
+            'available_operations': 'c r u d'
+          }],
+          'name': 'test1',
+          'create_user': 'admin'
+        }
+        this.addOneResources(data).then((res) => {
+          _this.getResources()
+        })
+      },
+      /**
+       * 删除
+       */
       handleDelete (id) {
         // tableData.splice(tableData.indexOf(data), 1)
-        this.delOneResources({id: id})
+        let _this = this
+        if (!id) {
+          return
+        }
+        this.delOneResources({id: id}).then((res) => {
+          _this.getResources()
+        })
       }
     }
   }

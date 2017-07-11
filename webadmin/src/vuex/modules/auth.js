@@ -35,6 +35,19 @@ const actions = {
   /**
    * 修改单个资源的action
    */
+  addOneResources ({commit}, payload) {
+    return services.pro.addOneResources(payload)
+    .then((response) => {
+      return response
+    })
+    .catch((error) => {
+      return error.response
+    })
+  },
+
+  /**
+   * 修改单个资源的action
+   */
   updateOneResources ({commit}, payload) {
     return services.pro.updateOneResources(payload)
     .then((response) => {
