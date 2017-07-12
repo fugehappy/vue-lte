@@ -23,7 +23,7 @@ export default {
    * 修改单个资源
    */
   updateOneResources (request = {}) {
-    return fetch.put('/resources', request)
+    return fetch.put('/resources/' + request.id, request)
       .then((response) => Promise.resolve(response))
       .catch((error) => Promise.reject(error))
   },

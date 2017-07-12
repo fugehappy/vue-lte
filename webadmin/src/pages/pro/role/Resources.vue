@@ -11,9 +11,9 @@
         <td>{{ index + 1 }}</td>
         <td>{{ item.name }}</td>
         <td>
-          <a href="javascript:;">修改</a>
+          <button class="btn btn-primary btn-xs" @click="handleUpdate(item)">修改</button>
           <span style="padding: 10px"></span>
-          <a href="javascript:;" @click="handleDelete(item.id)">删除</a>
+          <button class="btn btn-danger btn-xs" @click="handleDelete(item.id)">删除</button>
         </td>
       </tr>
       <tr v-if="!list">
@@ -48,8 +48,10 @@
       ...mapActions([
         'getAllResourcesList',
         'addOneResources',
+        'updateOneResources',
         'delOneResources'
       ]),
+
       /**
        * 获取
        */
@@ -85,6 +87,21 @@
           _this.getResources()
         })
       },
+
+      /**
+       * 修改
+       */
+      handleUpdate (item) {
+        Object.assign(item, {
+          name: 'admin1'
+        })
+        this.updateOneResources(item).then((res) => {
+          if (res.status === 200) {
+            alert('修改成功')
+          }
+        })
+      },
+
       /**
        * 删除
        */
