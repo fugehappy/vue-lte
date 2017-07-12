@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "adminLTE to vuejs v2.x converting project",
   "scripts": {
+    "server": "./node_modules/.bin/json-server --port 9729 --watch ./mock-server/data/db.json",
     "mock": "./node_modules/.bin/json-server --port 9728 ./mock-server/index.js",
     "dev-server": "node build/dev-server.js",
     "dev": "npm-run-all --parallel mock dev-server",

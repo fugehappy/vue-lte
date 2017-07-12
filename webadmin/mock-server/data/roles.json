@@ -1,0 +1,26 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" },
+  "roles": [{
+    "id": 1,
+    "permissions": "c r u d",
+    "resources": [{
+      "is_active": true,
+      "updated_at": 1496372871160,
+      "name": "组织机构",
+      "description": null,
+      "created_at": 1496372871160,
+      "id": 1,
+      "roleId": 1,
+      "create_user": "admin",
+      "key": "organizations",
+      "updated_user": null,
+      "available_operations": "c r u d"
+    }]
+  }]
+}

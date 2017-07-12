@@ -1,8 +1,9 @@
 import fetch from '../../../lib/utils/fetch'
 
 export default {
-  getAll () {
-    return fetch.get('/products')
+  getAll (request = {
+  }) {
+    return fetch.get('/products?_page=' + request.page + '&_limit=' + request.limit)
       .then((response) => Promise.resolve(response))
       .catch((error) => Promise.reject(error))
   },

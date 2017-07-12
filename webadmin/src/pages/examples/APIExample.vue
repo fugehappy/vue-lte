@@ -36,7 +36,7 @@ import { export_json_to_excel } from '../../lib/vendor/Export2Excel.js'
 
 export default {
   created () {
-    this.fetchProduct()
+    this.fetchProduct({page: 1, limit: 20})
   },
   computed: {
     ...mapGetters([
