@@ -1,5 +1,6 @@
 <template>
   <div>
+    <button class="btn btn-info" style="margin-bottom: 10px;" @click="handleAdd">添加</button>
     <table border="1" width="100%" class="res-table">
       <tr>
         <th>序号</th>
@@ -12,7 +13,7 @@
         <td>
           <a href="javascript:;">修改</a>
           <span style="padding: 10px"></span>
-          <a href="javascript:;" @click="handleDelete(list, item.id)">删除</a>
+          <a href="javascript:;" @click="handleDelete(item.id)">删除</a>
         </td>
       </tr>
       <tr v-if="!list">
@@ -41,22 +42,60 @@
       ])
     },
     mounted () {
-      this.getAllResourcesList().then((res) => {
-        if (res.status === 200) {
-          this.list = res.data
-        }
-      })
+      this.getResources()
     },
     methods: {
       ...mapActions([
-        'getAllResourcesList'
+        'getAllResourcesList',
+        'addOneResources',
+        'delOneResources'
       ]),
-      handleDelete (arrList, id) {
-        let tableData = arrList
-        tableData.forEach(function (data) {
-          if (id === data.id) {
-            tableData.splice(tableData.indexOf(data), 1)
+      /**
+       * 获取
+       */
+      getResources () {
+        this.getAllResourcesList().then((res) => {
+          if (res.status === 200) {
+            this.list = res.data
           }
+        })
+      },
+
+      /**
+       * 添加
+       */
+      handleAdd () {
+        // tableData.splice(tableData.indexOf(data), 1)
+        let _this = this
+        let data = {
+          'permissions': [{
+            'name': '控制台',
+            'key': 'machine_getone',
+            'available_operations': 'c r u d'
+          },
+          {
+            'name': '数据清洗',
+            'key': 'sheets_clean',
+            'available_operations': 'c r u d'
+          }],
+          'name': 'test1',
+          'create_user': 'admin'
+        }
+        this.addOneResources(data).then((res) => {
+          _this.getResources()
+        })
+      },
+      /**
+       * 删除
+       */
+      handleDelete (id) {
+        // tableData.splice(tableData.indexOf(data), 1)
+        let _this = this
+        if (!id) {
+          return
+        }
+        this.delOneResources({id: id}).then((res) => {
+          _this.getResources()
         })
       }
     }
