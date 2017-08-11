@@ -1,9 +1,9 @@
 import * as types from './mutation-types'
 import { services } from './api'
 
-export const fetchProduct = ({ commit }) => {
+export const fetchProduct = ({ commit }, payload) => {
   // API request
-  return services.products.getAll()
+  return services.products.getAll(payload)
   .then((response) => {
     commit(types.FETCH_PRODUCT, response.data)
     return response.data
