@@ -1,6 +1,16 @@
 <template lang="html">
-  <div class="">
-    <button @click="handleDownload">导出excel</button>
+  <div>
+    <div class="header-bar">
+      <button @click="handleDownload">导出excel</button>
+      <el-input
+          groupType="input"
+          placeholder="Search..."
+          type="text"
+          v-model="searchText"
+        >
+        <i slot="slotSuffixAddonText" class="fa fa-check" @click="handleSearch"></i>
+      </el-input>
+    </div>
     <table>
       <thead>
       <tr>
@@ -33,15 +43,25 @@
 <script>
 import { mapGetters, mapActions } from 'vuex'
 import { export_json_to_excel } from '../../lib/vendor/Export2Excel.js'
+import VAInputGroup from '../../components/VAInputGroup'
+import ELInput from '../../components/ELInput'
 
 export default {
+  data () {
+    return {
+      searchText: ''
+    }
+  },
   created () {
-    this.fetchProduct({page: 1, limit: 20})
+    this.fetchProduct({_page: 1, _limit: 15})
   },
   computed: {
     ...mapGetters([
       'totalProduct'
     ])
+  },
+  components: {
+    'el-input': ELInput
   },
   methods: {
     ...mapActions([
@@ -60,10 +80,26 @@ export default {
     },
     formatJson (filterVal, jsonData) {
       return jsonData.map(v => filterVal.map(j => v[j]))
+    },
+    handleSearch () {
+      console.log(this.searchText)
+      if (this.searchText !== '') {
+        this.fetchProduct({_page: 1, _limit: 14, q: this.searchText})
+      }
     }
   }
 }
 </script>
 
 <style lang="css">
+.header-bar {
+  overflow: hidden;
+}
+.header-bar button {
+  float: left;
+}
+.header-bar .input-group {
+  float: right;
+  width: 40%;
+}
 </style>
