@@ -87,20 +87,39 @@ export default {
       return this.isFormControl ? 'form-control' : ''
     }
   },
-  created () {
-
+  watch: {
+    'value' (val, oldValue) {
+      console.log('value', val)
+      this.setCurrentValue(val)
+    }
   },
   methods: {
-    handleInput () {
-      const value = event.target.value
-      this.$emit('input', value)
-    },
     handleFocus () {
       this.$emit('focus', event)
     },
     handleBlur () {
       this.$emit('blur', event)
+    },
+    handleInput () {
+      const value = event.target.value
+      this.$emit('input', value)
+      this.setCurrentValue(value)
+      this.$emit('change', value)
+    },
+    handleIconClick (event) {
+      if (this.onIconClick) {
+        this.onIconClick(event)
+      }
+      this.$emit('click', event)
+    },
+    setCurrentValue (value) {
+      if (value === this.currentValue) return
+      this.currentValue = value
+      console.log('@', this.currentValue)
     }
+  },
+  created () {
+
   }
 }
 </script>
